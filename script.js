@@ -14,7 +14,7 @@ function makeGrid(size) {
     }
 }
 
-let size = document.querySelector('.grid-size');
+let size = document.querySelector('#grid-size');
 console.log(size.value);//default grid-size
 makeGrid(size.value);
 size.addEventListener('click', () => {
